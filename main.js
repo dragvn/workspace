@@ -58,3 +58,16 @@ SORT ARRAY IN ASCENDING ORDER NUMERICALLY
 // List of words
 // Write a program that asks the user for a word until the user types "stop". The program then shows each of these words, except "stop".
 
+    // let userInput = ''
+    // let arrayFromUserInput = []
+    // let index = 0
+
+    // while(userInput != 'stop'){
+    //     userInput = prompt('Please enter a word, type "stop" to end the program')
+    //     arrayFromUserInput[index] = userInput
+    //     index++
+    // }
+    // arrayFromUserInput.pop()
+    // console.log(arrayFromUserInput)
+
+/********************************************************* */
