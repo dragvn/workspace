@@ -113,7 +113,7 @@ SORT ARRAY IN ASCENDING ORDER NUMERICALLY
     // console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
     // console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
 
-/************************************************************ */
+/************************************************************** */
 // Modeling a circle
 // Complete the following program to add the circle object definition. Its radius value is input by the user.
 
@@ -159,4 +159,4 @@ SORT ARRAY IN ASCENDING ORDER NUMERICALLY
     // account.credit(-80)
     // console.log(account.describe())
 
-/*********************************************************** */
+/************************************************************** */
