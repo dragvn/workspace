@@ -187,3 +187,55 @@ ARRAY METHODS
     // console.log(camelize('list-style-image'))
 
 /********************************************************** */
+// Filter range
+// importance: 4
+// Write a function filterRange(arr, a, b) that gets an array arr, looks for elements with values higher or equal to a and lower or equal to b and return a result as an array.
+
+// The function should not modify the array. It should return the new array.
+
+    // function filterRange(arr, a, b){
+    // return arr.filter(element => (element >= a && element <= b))
+    // }
+
+    // console.log(filterRange([5,3,8,1], 1, 4))
+
+/********************************************************** */
+// Filter range "in place"
+// importance: 4
+// Write a function filterRangeInPlace(arr, a, b) that gets an array arr and removes from it all values except those that are between a and b. The test is: a ≤ arr[i] ≤ b.
+
+// The function should only modify the array. It should not return anything.
+
+    // function filterRangeInPlace(arr, a, b){
+    //     for(i=0;i<arr.length;i++){
+    //         let val = arr[i]
+
+    //         if(val < a || val > b){
+    //             arr.splice(i, 1)
+    //             i--
+    //         }
+    //     }
+    // }
+    // let arr = [5,3,8,1]
+    // filterRangeInPlace(arr, 1, 4)
+    // console.log(arr)
+
+/********************************************************** */
+//Sort in decreasing order 
+    // let arr = [5, 2, 1, -10, 8]
+    // function sortDecreasing(arr){
+    //     console.log(arr.sort((a,b)=> a-b).reverse())
+    // }
+
+    // sortDecreasing(arr)
+
+/********************************************************* */
+//Copy an array and then sort the copy, not modifying the original
+
+        // let arr = ['HTML', 'Javascript', 'CSS']
+
+        // const copySorted = arr => arr.slice().sort()
+        
+        // console.log(copySorted(arr))
+
+/******************************************************* */
