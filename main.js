@@ -239,3 +239,20 @@ ARRAY METHODS
         // console.log(copySorted(arr))
 
 /******************************************************* */
+//write function to search an array for 'needle'
+let haystack = ['hay', 'junk', 'hey', 'moreJunk','needle', 'randomJunk']
+
+function containsNeedle(haystack){
+    let containsNeedle = haystack.includes('needle')
+    if(containsNeedle === true){
+        console.log(`found the needle at position ${haystack.indexOf('needle')}`)
+    }
+}
+
+containsNeedle(haystack)
+
+const containsNeedleTernary = haystack => {
+    haystack.includes('needle') ? `found needle at position ${haystack.indexOf('needle')}` : false
+}
+
+console.log(containsNeedle(haystack))
