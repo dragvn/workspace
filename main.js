@@ -240,19 +240,32 @@ ARRAY METHODS
 
 /******************************************************* */
 //write function to search an array for 'needle'
-let haystack = ['hay', 'junk', 'hey', 'moreJunk','needle', 'randomJunk']
+// let haystack = ['hay', 'junk', 'hey', 'moreJunk','needle', 'randomJunk']
 
-function containsNeedle(haystack){
-    let containsNeedle = haystack.includes('needle')
-    if(containsNeedle === true){
-        console.log(`found the needle at position ${haystack.indexOf('needle')}`)
-    }
-}
+    // function containsNeedle(haystack){
+    //     let containsNeedle = haystack.includes('needle')
+    //     if(containsNeedle === true){
+    //         console.log(`found the needle at position ${haystack.indexOf('needle')}`)
+    //     }
+    // }
 
-containsNeedle(haystack)
+    // containsNeedle(haystack)
 
-const containsNeedleTernary = haystack => {
-    haystack.includes('needle') ? `found needle at position ${haystack.indexOf('needle')}` : false
-}
+    // const containsNeedleTernary = haystack => {
+    //     haystack.includes('needle') ? `found needle at position ${haystack.indexOf('needle')}` : false
+    // }
 
-console.log(containsNeedle(haystack))
+    // console.log(containsNeedle(haystack))
+
+/******************************************************* */
+//Take an array and return a new array that contains every even number from the original array
+    // let arr = [1,2,3,4,5,6]
+    // const evenFinder = arr => arr.filter((n) => n % 2 === 0)
+    // console.log(evenFinder(arr))
+
+/******************************************************** */
+//Sum all numbers in an array
+    // let arr = [1,2,3,4,5,6,7,8]
+    // const sumArray = arr => arr.reduce((acc,c) => +acc + +c, 0)
+    // console.log(sumArray(arr))
+/********************************************************* */
