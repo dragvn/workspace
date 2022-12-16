@@ -269,3 +269,41 @@ ARRAY METHODS
     // const sumArray = arr => arr.reduce((acc,c) => +acc + +c, 0)
     // console.log(sumArray(arr))
 /********************************************************* */
+//constructor to create rpg toon
+function Toon(name, characterClass, strength, speed, stamina, health){
+    this.name = name
+    this.characterClass = characterClass
+    this.strength = strength
+    this.speed = speed
+    this.stamina = stamina
+    this.health = health
+    this.dexterity = Math.floor(speed/strength * 5)
+    
+    this.compareSpeed = function(toon) {
+        switch(true){
+            case this.speed > toon.speed: return 1
+            case this.speed < toon.speed: return 0
+            default: 
+                return -1
+        }
+    }
+    
+    this.alertSpeedComparison = function(compareSpeed){
+        switch(true){
+            case compareSpeed === 1: 
+                console.log(`${this.name} is faster than ${toon.name}`)
+                break
+            case compareSpeed === 0:
+                console.log(`${this.name} is slower than ${toon.name}`)
+                break
+            default: 
+                console.log(`${this.name} and ${toon.name} are evenly matched!`)
+                break
+        }
+    }
+    
+}
+
+const slink = new Toon('slink', 'pet', 3, 4 , 5, 10)
+const dragon = new Toon('dragon', 'sorcerer', 5, 6, 6, 14)
+
