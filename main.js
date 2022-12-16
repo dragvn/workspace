@@ -281,29 +281,68 @@ function Toon(name, characterClass, strength, speed, stamina, health){
     
     this.compareSpeed = function(toon) {
         switch(true){
-            case this.speed > toon.speed: return 1
-            case this.speed < toon.speed: return 0
+            case this.speed > toon.speed: return [1, toon.name]
+            case this.speed < toon.speed: return [0, toon.name]
             default: 
-                return -1
+                return [-1, toon.name]
+        }
+    }
+
+    this.compareStat = function(stat, toon){
+        switch(true){
+            case this[stat] > toon[stat]: return [1, toon.name]
+            case this[stat] < toon[stat]: return [0, toon.name]
+            default: 
+                return [-1, toon.name]
+        }
+    }
+
+    this.compareHealth = function(toon) {
+        switch(true){
+            case this.health > toon.health: return [1, toon.name]
+            case this.health < toon.health: return [0, toon.name]
+            default: 
+                return [-1, toon.name]
         }
     }
     
     this.alertSpeedComparison = function(compareSpeed){
         switch(true){
-            case compareSpeed === 1: 
-                console.log(`${this.name} is faster than ${toon.name}`)
+            case compareSpeed[0] === 1: 
+                console.log(`${this.name} is faster than ${compareSpeed[1]}`)
                 break
-            case compareSpeed === 0:
-                console.log(`${this.name} is slower than ${toon.name}`)
+            case compareSpeed[0] === 0:
+                console.log(`${this.name} is slower than ${compareSpeed[1]}`)
                 break
             default: 
-                console.log(`${this.name} and ${toon.name} are evenly matched!`)
+                console.log(`${this.name} and ${compareSpeed[1]} are evenly matched!`)
+                break
+        }
+    }
+
+    this.alertHealthComparison = function(compareHealth){
+        switch(true){
+            case compareHealth[0] === 1: 
+                console.log(`${this.name} has more health than ${compareHealth[1]}`)
+                break
+            case compareHealth[0] === 0:
+                console.log(`${this.name} has less health than ${compareHealth[1]}`)
+                break
+            default: 
+                console.log(`${this.name} and ${compareHealth[1]} are evenly matched!`)
                 break
         }
     }
     
 }
 
-const slink = new Toon('slink', 'pet', 3, 4 , 5, 10)
-const dragon = new Toon('dragon', 'sorcerer', 5, 6, 6, 14)
+let userSelectedName = prompt('What is your toons name??')
+let userSelectedClass = prompt('What is your toons class?')
+let userSelectedStrength = Number(prompt('What is your toons strength (1-10)?'))
+let userSelectedSpeed = prompt('What is your toons speed (1-10)?')
+let userSelectedStamina = prompt('What is your toons stamina (1-10)?')
+let userSelectedHealth = prompt('What is your toons health (1-10)?')
+
+const jarble = new Toon(userSelectedName, userSelectedClass, userSelectedStrength, userSelectedSpeed, userSelectedStamina, userSelectedHealth)
+const flargle = new Toon('flargle', 'warrior', 9, 7, 9, 5)
 
