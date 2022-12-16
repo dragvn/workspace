@@ -278,6 +278,9 @@ function Toon(name, characterClass, strength, speed, stamina, health){
     this.stamina = stamina
     this.health = health
     this.dexterity = Math.floor(speed/strength * 5)
+    this.agility = Math.floor(speed/stamina * 5)
+    this.resistance = Math.floor(health/strength * 5)
+    this.recovery = Math.floor(health/stamina * 5)
     
     this.compareSpeed = function(toon) {
         switch(true){
@@ -336,13 +339,15 @@ function Toon(name, characterClass, strength, speed, stamina, health){
     
 }
 
-let userSelectedName = prompt('What is your toons name??')
-let userSelectedClass = prompt('What is your toons class?')
-let userSelectedStrength = Number(prompt('What is your toons strength (1-10)?'))
-let userSelectedSpeed = prompt('What is your toons speed (1-10)?')
-let userSelectedStamina = prompt('What is your toons stamina (1-10)?')
-let userSelectedHealth = prompt('What is your toons health (1-10)?')
+// let userSelectedName = prompt('What is your toons name??')
+// let userSelectedClass = prompt('What is your toons class?')
+// let userSelectedStrength = Number(prompt('What is your toons strength (1-10)?'))
+// let userSelectedSpeed = prompt('What is your toons speed (1-10)?')
+// let userSelectedStamina = prompt('What is your toons stamina (1-10)?')
+// let userSelectedHealth = prompt('What is your toons health (1-10)?')
 
-const jarble = new Toon(userSelectedName, userSelectedClass, userSelectedStrength, userSelectedSpeed, userSelectedStamina, userSelectedHealth)
+//const jarble = new Toon(userSelectedName, userSelectedClass, userSelectedStrength, userSelectedSpeed, userSelectedStamina, userSelectedHealth)
 const flargle = new Toon('flargle', 'warrior', 9, 7, 9, 5)
+const fleeble = new Toon('fleeble', 'pirate', 5, 10, 5, 5)
+const blarble = new Toon('blarble', 'none', 10, 5 , 7, 9)
 
