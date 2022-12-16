@@ -287,15 +287,15 @@ function Toon(name, characterClass, strength, speed, stamina, health){
                 return [-1, toon.name]
         }
     }
-
-    this.compareStat = function(stat, toon){
-        switch(true){
-            case this[stat] > toon[stat]: return [1, toon.name]
-            case this[stat] < toon[stat]: return [0, toon.name]
-            default: 
-                return [-1, toon.name]
-        }
-    }
+//THIS IS BROKEN ************************************************************
+    // this.compareStat = function(stat, toon){
+    //     switch(true){
+    //         case this[stat] > toon[stat]: return [1, toon.name]
+    //         case this[stat] < toon[stat]: return [0, toon.name]
+    //         default: 
+    //             return [-1, toon.name]
+    //     }
+    // }
 
     this.compareHealth = function(toon) {
         switch(true){
