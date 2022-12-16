@@ -268,86 +268,100 @@ ARRAY METHODS
     // let arr = [1,2,3,4,5,6,7,8]
     // const sumArray = arr => arr.reduce((acc,c) => +acc + +c, 0)
     // console.log(sumArray(arr))
+
+
 /********************************************************* */
+/********************************************************* */
+/********************************************************* */
+
+
 //constructor to create rpg toon
-function Toon(name, characterClass, strength, speed, stamina, health){
-    this.name = name
-    this.characterClass = characterClass
-    this.strength = strength
-    this.speed = speed
-    this.stamina = stamina
-    this.health = health
-    this.dexterity = Math.floor(speed/strength * 5)
-    this.agility = Math.floor(speed/stamina * 5)
-    this.resistance = Math.floor(health/strength * 5)
-    this.recovery = Math.floor(health/stamina * 5)
-    
-    this.compareSpeed = function(toon) {
-        switch(true){
-            case this.speed > toon.speed: return [1, toon.name]
-            case this.speed < toon.speed: return [0, toon.name]
-            default: 
-                return [-1, toon.name]
-        }
-    }
-//THIS IS BROKEN ************************************************************
-    // this.compareStat = function(stat, toon){
-    //     switch(true){
-    //         case this[stat] > toon[stat]: return [1, toon.name]
-    //         case this[stat] < toon[stat]: return [0, toon.name]
-    //         default: 
-    //             return [-1, toon.name]
+    // function Toon(name, characterClass, strength, speed, stamina, health){
+    //     this.name = name
+    //     this.characterClass = characterClass
+    //     this.strength = strength
+    //     this.speed = speed
+    //     this.stamina = stamina
+    //     this.health = health
+    //     this.dexterity = Math.floor(speed/strength * 5)
+    //     this.agility = Math.floor(speed/stamina * 5)
+    //     this.resistance = Math.floor(health/strength * 5)
+    //     this.recovery = Math.floor(health/stamina * 5)
+        
+    //     this.compareSpeed = function(toon) {
+    //         switch(true){
+    //             case this.speed > toon.speed: return [1, toon.name]
+    //             case this.speed < toon.speed: return [0, toon.name]
+    //             default: 
+    //                 return [-1, toon.name]
+    //         }
     //     }
+    // //THIS IS BROKEN ************************************************************
+    //     // this.compareStat = function(stat, toon){
+    //     //     switch(true){
+    //     //         case this[stat] > toon[stat]: return [1, toon.name]
+    //     //         case this[stat] < toon[stat]: return [0, toon.name]
+    //     //         default: 
+    //     //             return [-1, toon.name]
+    //     //     }
+    //     // }
+
+    //     this.compareHealth = function(toon) {
+    //         switch(true){
+    //             case this.health > toon.health: return [1, toon.name]
+    //             case this.health < toon.health: return [0, toon.name]
+    //             default: 
+    //                 return [-1, toon.name]
+    //         }
+    //     }
+        
+    //     this.alertSpeedComparison = function(compareSpeed){
+    //         switch(true){
+    //             case compareSpeed[0] === 1: 
+    //                 console.log(`${this.name} is faster than ${compareSpeed[1]}`)
+    //                 break
+    //             case compareSpeed[0] === 0:
+    //                 console.log(`${this.name} is slower than ${compareSpeed[1]}`)
+    //                 break
+    //             default: 
+    //                 console.log(`${this.name} and ${compareSpeed[1]} are evenly matched!`)
+    //                 break
+    //         }
+    //     }
+
+    //     this.alertHealthComparison = function(compareHealth){
+    //         switch(true){
+    //             case compareHealth[0] === 1: 
+    //                 console.log(`${this.name} has more health than ${compareHealth[1]}`)
+    //                 break
+    //             case compareHealth[0] === 0:
+    //                 console.log(`${this.name} has less health than ${compareHealth[1]}`)
+    //                 break
+    //             default: 
+    //                 console.log(`${this.name} and ${compareHealth[1]} are evenly matched!`)
+    //                 break
+    //         }
+    //     }
+        
     // }
 
-    this.compareHealth = function(toon) {
-        switch(true){
-            case this.health > toon.health: return [1, toon.name]
-            case this.health < toon.health: return [0, toon.name]
-            default: 
-                return [-1, toon.name]
-        }
-    }
+    // // let userSelectedName = prompt('What is your toons name??')
+    // // let userSelectedClass = prompt('What is your toons class?')
+    // // let userSelectedStrength = Number(prompt('What is your toons strength (1-10)?'))
+    // // let userSelectedSpeed = prompt('What is your toons speed (1-10)?')
+    // // let userSelectedStamina = prompt('What is your toons stamina (1-10)?')
+    // // let userSelectedHealth = prompt('What is your toons health (1-10)?')
+
+    // //const jarble = new Toon(userSelectedName, userSelectedClass, userSelectedStrength, userSelectedSpeed, userSelectedStamina, userSelectedHealth)
+    // const flargle = new Toon('flargle', 'warrior', 9, 7, 9, 5)
+    // const fleeble = new Toon('fleeble', 'pirate', 5, 10, 5, 5)
+    // const blarble = new Toon('blarble', 'none', 10, 5 , 7, 9)
+
+    /********************************************** */
+    //write a function that takes a boolean and
+    //returns 'true' if its true, 'false' if its false
+
+    // const trueOrFalse = bool => bool === true ? 'Yes' : 'No'
     
-    this.alertSpeedComparison = function(compareSpeed){
-        switch(true){
-            case compareSpeed[0] === 1: 
-                console.log(`${this.name} is faster than ${compareSpeed[1]}`)
-                break
-            case compareSpeed[0] === 0:
-                console.log(`${this.name} is slower than ${compareSpeed[1]}`)
-                break
-            default: 
-                console.log(`${this.name} and ${compareSpeed[1]} are evenly matched!`)
-                break
-        }
-    }
 
-    this.alertHealthComparison = function(compareHealth){
-        switch(true){
-            case compareHealth[0] === 1: 
-                console.log(`${this.name} has more health than ${compareHealth[1]}`)
-                break
-            case compareHealth[0] === 0:
-                console.log(`${this.name} has less health than ${compareHealth[1]}`)
-                break
-            default: 
-                console.log(`${this.name} and ${compareHealth[1]} are evenly matched!`)
-                break
-        }
-    }
-    
-}
-
-// let userSelectedName = prompt('What is your toons name??')
-// let userSelectedClass = prompt('What is your toons class?')
-// let userSelectedStrength = Number(prompt('What is your toons strength (1-10)?'))
-// let userSelectedSpeed = prompt('What is your toons speed (1-10)?')
-// let userSelectedStamina = prompt('What is your toons stamina (1-10)?')
-// let userSelectedHealth = prompt('What is your toons health (1-10)?')
-
-//const jarble = new Toon(userSelectedName, userSelectedClass, userSelectedStrength, userSelectedSpeed, userSelectedStamina, userSelectedHealth)
-const flargle = new Toon('flargle', 'warrior', 9, 7, 9, 5)
-const fleeble = new Toon('fleeble', 'pirate', 5, 10, 5, 5)
-const blarble = new Toon('blarble', 'none', 10, 5 , 7, 9)
-
+    // console.log(trueOrFalse(true))
