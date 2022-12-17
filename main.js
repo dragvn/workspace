@@ -365,3 +365,8 @@ ARRAY METHODS
     
 
     // console.log(trueOrFalse(true))
+
+/************************************************** */
+//Take an array and return all even values from it
+// let arr = [1,2,3,4,5,6,7,8]
+// console.log(arr.filter((n)=> n%2==0))
