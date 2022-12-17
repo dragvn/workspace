@@ -368,5 +368,46 @@ ARRAY METHODS
 
 /************************************************** */
 //Take an array and return all even values from it
-// let arr = [1,2,3,4,5,6,7,8]
-// console.log(arr.filter((n)=> n%2==0))
+    // let arr = [1,2,3,4,5,6,7,8]
+    // console.log(arr.filter((n)=> n%2==0))
+
+/************************************************ */
+//Build a stopwatch
+
+    // function Stopwatch(){
+    //     let startTime, endTime, running, duration = 0;
+
+    //     this.start = function(){
+    //         if(running)
+    //             throw new Error('Stopwatch is already running.')
+
+    //         running = true;
+    //         startTime = new Date()
+    //     }
+
+    //     this.stop = function(){
+    //         if(!running)
+    //             throw new Error('Stopwatch is not running.')
+
+    //         running = false;
+    //         endTime = new Date()
+
+    //         const seconds = ((endTime.getTime() - startTime.getTime()) / 1000)
+    //         duration += seconds
+    //     }
+
+    //     this.reset = function(){
+    //         this.startTime = null
+    //         this.endTime = null
+    //         running = false
+    //         duration = 0
+    //     }
+
+    //     Object.defineProperty(this, 'duration', {
+    //         get: function() {return duration}
+    //     })
+    // }
+
+    // let sw = new Stopwatch
+
+/*********************************************************** */
