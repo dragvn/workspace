@@ -502,6 +502,21 @@ ARRAY METHODS
     // console.log(nMulitplesOfX(3, 3))
 
 /*************************************************************** */
+// Write a range function that takes two arguments, start and end, 
+// and returns an array containing all the numbers from start up to (and including) end.
+        // function nToX(n, x){
+        //     let z = []
+        //     for(i=n;i <= x; i++){
+        //         z.push(i)
+        //     }
+        //     return z
+        // }
+        // console.log(nToX(3,7))
+
+        // function sum(arr){
+        //     return arr.reduce((acc,c)=> acc + c)
+        // }
+        // console.log(sum(nToX(3,7)))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
