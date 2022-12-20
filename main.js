@@ -488,6 +488,19 @@ ARRAY METHODS
     //     return true
     // }
 /*************************************************************** */
+// Create a function with two arguments that will return an array of 
+// the first n multiples of x.
+// Return the results as an array or list ( depending on language ).
+
+    // function nMulitplesOfX(n, x){
+    //     let z = []
+    //     for(i=1; i <= n; i++){
+    //         z.push(i * x)
+    //     }
+    //     return z
+    // }
+    // console.log(nMulitplesOfX(3, 3))
+
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
