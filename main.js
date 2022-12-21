@@ -503,7 +503,7 @@ ARRAY METHODS
 
 /*************************************************************** */
 // Write a range function that takes two arguments, start and end, 
-// and returns an array containing all the numbers from start up to (and including) end.
+// and returns an array containing all the numbers from start up to (and including) end.`
         // function nToX(n, x){
         //     let z = []
         //     for(i=n;i <= x; i++){
@@ -518,6 +518,15 @@ ARRAY METHODS
         // }
         // console.log(sum(nToX(3,7)))
 /*************************************************************** */
+//n multiples of x
+    // function nMulitplesOfX(n, x){
+    //     let z = []
+    //     for(i = 1; i <= n; i++){
+    //         z.push(i * x)
+    //     }
+    //     return z
+    // }
+    // console.log(nMulitplesOfX(3, 3))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
