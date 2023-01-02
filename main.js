@@ -529,17 +529,42 @@ ARRAY METHODS
     // console.log(nMulitplesOfX(3, 3))
 /*************************************************************** */
 // In this little assignment you are given a string of space separated numbers, 
-// and have to return the highest and lowest number
-let str = '1 2 3 4 5 6'
-function highAndLow(numbers){
-    let arr = numbers.split(' ').sort((a,b) => a - b)
-    return `${arr[arr.length-1]} ${arr[0]}`
-  }
- console.log(highAndLow(str))
+// // and have to return the highest and lowest number
+// let str = '1 2 3 4 5 6'
+// function highAndLow(numbers){
+//     let arr = numbers.split(' ').sort((a,b) => a - b)
+//     return `${arr[arr.length-1]} ${arr[0]}`
+//   }
+//  console.log(highAndLow(str))
   
+// /*************************************************************** */
+// // Create a function called shortcut to remove the lowercase vowels
+// // (a, e, i, o, u ) in a given string. Return new string
+// function shortcut (string) {
+//     string.split('')
+//     string.forEach(element => {
+        
+//     });
+//   }
 /*************************************************************** */
+//create a function with two args that will
+//return an array of the first n multiples of x
+    // const nOfX = (n,x) => {
+    //     let z = []
+    //     for(i=1; i <= n; i++){
+    //         z.push(i * x)
+    //     }
+    //     return z
+    // }
+    // console.log(nOfX(3,3))
 /*************************************************************** */
-/*************************************************************** */
+//reverse string with loop
+    // let str = 'i love boobs'
+    // let newStr = ''
+    // for(i=str.length-1; i>=0; i--){
+    //     newStr += str[i]
+    // }
+    // console.log(newStr)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
