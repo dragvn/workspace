@@ -589,17 +589,24 @@ ARRAY METHODS
     // }
     // console.log(newStr)
 /*************************************************************** */
-function enough(cap, on, wait) {
-    total = on + wait
-    if(total > cap){
-      return total - cap
-    }else{
-      return 0
-    }
-  }
+    // function enough(cap, on, wait) {
+    //     total = on + wait
+    //     if(total > cap){
+    //     return total - cap
+    //     }else{
+    //     return 0
+    //     }
+    // }
 
-const enough = (cap, on, wait) => on + wait > cap ? (on + wait) - cap : 0 //better
+    // const enough = (cap, on, wait) => on + wait > cap ? (on + wait) - cap : 0 //better
 /*************************************************************** */
+//reverse string with loop
+    // let str = 'lord i dont feel like going to work'
+    // let newStr = ''
+    // for(i=str.length-1;i>=0;i--){
+    //     newStr += str[i]
+    // }
+    // console.log(newStr)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
