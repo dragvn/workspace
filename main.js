@@ -613,6 +613,15 @@ ARRAY METHODS
     // let onlyEvens = arr => arr.filter(n => n % 2 === 0)
     // console.log(onlyEvens(arr))
 /*************************************************************** */
+function aliasGen(first, last){
+    first.split('')
+    last.split('')
+    let firstName = first[0].toUpperCase()
+    let lastName = last[0].toUpperCase()
+    let arr = [firstName, lastName]
+    return arr
+}
+console.log(aliasGen('lemon', 'butt'))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
