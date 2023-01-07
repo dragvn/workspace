@@ -613,16 +613,20 @@ ARRAY METHODS
     // let onlyEvens = arr => arr.filter(n => n % 2 === 0)
     // console.log(onlyEvens(arr))
 /*************************************************************** */
-function aliasGen(first, last){
-    first.split('')
-    last.split('')
-    let firstName = first[0].toUpperCase()
-    let lastName = last[0].toUpperCase()
-    let arr = [firstName, lastName]
-    return arr
-}
-console.log(aliasGen('lemon', 'butt'))
+    // function aliasGen(first, last){
+    //     first.split('')
+    //     last.split('')
+    //     let firstName = first[0].toUpperCase()
+    //     let lastName = last[0].toUpperCase()
+    //     let arr = [firstName, lastName]
+    //     return arr
+    // }
+    // console.log(aliasGen('lemon', 'butt'))
 /*************************************************************** */
+//take an array, returnn new array tht includes every even number
+    // let arr = [1,2,3,4,5,6,7,8]
+    // let newArr = arr.filter((n) => n % 2 === 0)
+    // console.log(newArr)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
