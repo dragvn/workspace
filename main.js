@@ -628,7 +628,29 @@ ARRAY METHODS
     // let newArr = arr.filter((n) => n % 2 === 0)
     // console.log(newArr)
 /*************************************************************** */
+//reverse string with loop
+    // let str = 'I like squishy buns'
+    // let newStr = ''
+    // for(i=str.length-1;i>=0;i--){
+    //     newStr += str[i]
+    // }
+    // console.log(newStr)
 /*************************************************************** */
+//Write a function that accepts an integer n and a string s as parameters, 
+//and returns a string of s repeated exactly n times.
+    // function repeatStr (n, s) {
+    //     let newStr = ''
+    //     for(i=n;i>0;i--){
+    //         newStr += s
+    //     }
+    //     return newStr;
+    // }
+
+    // console.log(repeatStr(3,'boobs'))
+
+    // const repeatStr = (n,s) => s.repeat(n) //this is the better way to do it
+
+    // console.log(repeatStr(3,'butt'))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
