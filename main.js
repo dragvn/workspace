@@ -802,6 +802,18 @@ ARRAY METHODS
     // }
     // const addBinary = (a,b) => (a+b).toString(2)
 /*************************************************************** */
+//Write a function that checks if a given string (case insensitive) is a palindrome.
+// function isPalindrome(x){
+//     let y = x.split('').reverse().join('')
+//     if(x===y){
+//         console.log(`${x} is a palindrome`)
+//     }else{
+//         console.log(`${x} is not a palindrome`)
+//     }
+// }
+    // const isPalindrome = x => x.split('').reverse().join('') === x 
+    // console.log(isPalindrome('boobs'))
+    // console.log(isPalindrome('boob'))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
