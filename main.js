@@ -815,6 +815,16 @@ ARRAY METHODS
     // console.log(isPalindrome('boobs'))
     // console.log(isPalindrome('boob'))
 /*************************************************************** */
+//reverse string with loop
+    // function reverseString(str){
+    //     let revStr = ''
+    //     for(i=str.length-1;i>=0;i--){
+    //         revStr += str[i]
+    //     }
+    //     return revStr
+    // }
+
+    // console.log(reverseString('boobs'))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
