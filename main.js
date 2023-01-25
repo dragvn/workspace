@@ -826,6 +826,8 @@ ARRAY METHODS
 
     // console.log(reverseString('boobs'))
 /*************************************************************** */
+//Implement a function that adds two numbers together and returns their sum in binary
+    //const addBinary = (a,b) => (a+b).toString(2)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
