@@ -829,7 +829,22 @@ ARRAY METHODS
 //Implement a function that adds two numbers together and returns their sum in binary
     //const addBinary = (a,b) => (a+b).toString(2)
 /*************************************************************** */
+//check to see if an object is empty
+    // function isEmpty(obj){
+    //     for(let key in obj){
+    //         return false
+    //     }
+    //     return true
+    // }
 /*************************************************************** */
+//function with two args that returns an array of first n multiples of x
+    // function nMulitplesOfX(n,x){
+    //     let z = []
+    //     for(i=1;i<=n;i++){
+    //         z.push(x*i)
+    //     }
+    //     return z
+    // }
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
