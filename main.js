@@ -857,8 +857,32 @@ ARRAY METHODS
     //     return null
     //   }
 /*************************************************************** */
+//implement a function that takes two numbers and returns their sum in binary
+    //const binarySum = (a,b) => (a + b).toString(2)
 /*************************************************************** */
+//find the first non-consecutive element in an array of numbers
+//return null if array is consecutive
+    // function firstNonConsecutive(arr){
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i] + 1 !== arr[i+1]){
+    //             return arr[i+1]
+    //         }
+    //     }
+    //     return null
+    //     }
+    // function firstNonConsecutive(arr){
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i]+1 !== arr[i+1]){
+    //             return arr[i + 1]
+    //         }
+    //     }
+    //     return null
+    // }
+    // let arr = [1,2,3,4,6,7,8,9]
+    // console.log(firstNonConsecutive(arr))
 /*************************************************************** */
+//sum all numbers in an array
+    //let sum = arr.reduce((s,acc) => +s + +acc)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
