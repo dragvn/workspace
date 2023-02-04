@@ -884,9 +884,54 @@ ARRAY METHODS
 //sum all numbers in an array
     //let sum = arr.reduce((s,acc) => +s + +acc)
 /*************************************************************** */
+//find the first non-consecutive element in an array, otherwise return null
+    // function firstNonConsecutive(arr){
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i]+1 !== arr[i+1]){
+    //             return arr[i+1]
+    //         }
+    //     }
+    //     return null
+    // }
+    // let arr1 = [1,2,3,4,6,7,8]
+    // let arr2 = [1,2,3,4,5,6,7,8]
+    // console.log(firstNonConsecutive(arr1))
+    // console.log(firstNonConsecutive(arr2))
 /*************************************************************** */
+//sum all numbers in an array
+    // let arr = [1,2,3,4,5,6,7,8,9]
+    // // function sumArray(arr){
+    // //     return arr.reduce((c,acc)=> +c + +acc)
+    // // }
+    // const sumArray = arr => arr.reduce((c,acc)=> +c + +acc)
+    // console.log(sumArray(arr))
 /*************************************************************** */
+//Look for a specific object 'obj23' in array of objects 'arrOfObj'
+
+    // let arrOfObj = [
+    //     {
+    //         id: 1,
+    //         name: 'test1'
+    //     },
+    //     {
+    //         id: 2,
+    //         name: 'test2'
+    //     },
+    //     {
+    //         id: 'obj23',
+    //         name: 'test3'
+    //     }
+    // ]
+    // let specificObject = arrOfObj.find(item => item.id == 'obj23')
+    // console.log(specificObject)
 /*************************************************************** */
+//raise a number to a power
+    // let n = 6
+    // let m = 6^3 //dont really know what this is doing, NOT raising to a power
+    // let o = 6**2
+    // let p = Math.pow(6,2)
+    // let arr = [n,m,o,p]
+    // console.log(arr)
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
