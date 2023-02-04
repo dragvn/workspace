@@ -938,6 +938,21 @@ ARRAY METHODS
 // let arr = [0,1,0,2]
 // const pairZeros = (a,f) => a.filter(n => n || (f = !f))
 /*************************************************************** */
+//declare a calss named 'MakeCar' with 4 properties and 2 methods
+    // class MakeCar{
+    //     constructor(carMake,carModel,carColor,numOfDoors){
+    //         this.make = carMake
+    //         this.model = carModel
+    //         this.color = carColor
+    //         this.doors = numOfDoors
+    //     }
+    //     honk(){
+    //         alert('BEEP BEEP FUCKER')
+    //     }
+    //     lock(){
+    //         alert(`Locked ${this.doors} doors!`)
+    //     }
+    // }
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
