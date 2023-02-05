@@ -954,7 +954,25 @@ ARRAY METHODS
     //     }
     // }
 /*************************************************************** */
+// For a given list of digits 0 to 9, return a list with the same digits in the same order, but with all 0s paired. 
+// Pairing two 0s generates one 0 at the location of the first one.
+
+    // const pairZeros = (a,f) => a.filter(n => n || (f = !f))
 /*************************************************************** */
+    // class MakeCar{
+    //     constructor(make, model, doors, factoryColor){
+    //         this._make = make
+    //         this._model = model
+    //         this._doors = doors
+    //         this._factoryColor = factoryColor
+    //     }
+    //     beep(){
+    //         alert('BEEP BEEP FUCKER')
+    //     }
+    //     alarm(){
+    //         alert('BACK THE FUCK UP')
+    //     }
+    // }
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
