@@ -990,18 +990,26 @@ ARRAY METHODS
 
 // e.g. trim("Code Wars is pretty rad", 50) should return "Code Wars is pretty rad"
 
-function trim(str, maxLength){
-    if(maxLength <= 3){
-        return str.substring(0,maxLength) + '...'
-    }else if(str.length <= maxLength){
-        return str
-    }else{
-        return str.slice(0,maxLength -3) + '...'
-    }
-}
+    // function trim(str, maxLength){
+    //     if(maxLength <= 3){
+    //         return str.substring(0,maxLength) + '...'
+    //     }else if(str.length <= maxLength){
+    //         return str
+    //     }else{
+    //         return str.slice(0,maxLength -3) + '...'
+    //     }
+    // }
 
-console.log(trim('Creating kata is fun', 14))
+    // console.log(trim('Creating kata is fun', 14))
 /*************************************************************** */
+// For a given list of digits 0 to 9, return a list with the same digits in the same order, but with all 0s paired.
+// Pairing two 0s generates one 0 at the location of the first one.
+// function pairZeros(a, f){
+//     return a.filter(n => n || (f != f))
+// }       // i dont really get how this works
+    // const pairZeros = (a,f) => a.filter(n => n || (f != f))
+    // const pairZeros = (a,f) => a.filter(n => n || (f != f))
+    // const pairZeros = (a,f) => a.filter(n => n || (f != f))
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
