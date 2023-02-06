@@ -1014,6 +1014,14 @@ ARRAY METHODS
 //easiest way to sum nums in array?
     // const numSum = arr => arr.reduce((sum,current)=> +sum + +current)
 /*************************************************************** */
+    // function mystery() {
+    //     var results =
+    //     {sanity: 'Hello'};
+    //     return results;
+    // }
+    // const mysteryBetter = () => ({sanity: 'Hello'}) 
+    // console.log(mystery())
+    // console.log(mysteryBetter())
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
