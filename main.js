@@ -1023,7 +1023,15 @@ ARRAY METHODS
     // console.log(mystery())
     // console.log(mysteryBetter())
 /*************************************************************** */
+//take an array and return every even number in a new array
+    // let arr = [1,2,3,4,5,6,7,8,9]
+    // const arrayOfEvens = arr => arr.filter((n => n % 2 === 0 ))
+
+    // console.log(arrayOfEvens(arr))
 /*************************************************************** */
+//find nearest sqaure number to provided number
+    //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
+//dont really know entirely how it works, just accept that it does for now 2/7/23
 /*************************************************************** */
 /*************************************************************** */
 /*************************************************************** */
