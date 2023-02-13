@@ -1,3 +1,9 @@
+/******************************************************************
+DECLARATION OF REUSABLE VARS
+*******************************************************************/
+let arrOfObj = [{name: 'Bob', age: 21}, {name: 'Terry', age: 32}, {name: 'Skrimy', age: '321'}]
+let arr = [1,3,2,4,6,5,7,9,8]
+
 /***********************
 SORT ARRAY IN ASCENDING ORDER NUMERICALLY 
 **********************/
@@ -1033,9 +1039,82 @@ ARRAY METHODS
     //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
 //dont really know entirely how it works, just accept that it does for now 2/7/23
 /*************************************************************** */
+//check to see if object is empty 
+    // function isEmpty(obj){
+    //     for(let key in obj){
+    //         return false
+    //     }
+    //     return  true
+    // }
 /*************************************************************** */
+//sort an array in ascending order numerically
+    // let arr = [1,4,5,3,2,7,9,8]
+    // function sortArrayAscending(arr){
+    //     return arr.sort((a,b)=> a - b)
+    // }
+    // console.log(sortArrayAscending(arr))
 /*************************************************************** */
+// Create a function with two arguments that will return an array of the first n multiples of x.
+// Return the results as an array or list ( depending on language ).
+    // function nMulitplesOfX(n,x){
+    //     let z = []
+    //     for(i=1;i<=n;i++){
+    //         z.push(x * i)
+    //     }
+    //     return z
+    // }
+    // console.log(nMulitplesOfX(3,4))
 /*************************************************************** */
+//declare a class named 'MakeCar' with 4 properties and 2 methods
+    // class MakeCar{
+    //     constructor(make,model,doors,color){
+    //         this._make = make
+    //         this._model = model
+    //         this._doors = doors
+    //         this._color = color
+    //         }
+    //         honk(){
+    //             console.log('bbep')
+    //         }
+    //         start(){
+    //             console.log('vvrom')
+    //         }
+    // }
+
+    // let beem = new MakeCar('BMW', '325es', 2, 'Delphin')
 /*************************************************************** */
+//what is the easiest way to sum all numbers in an array?
+    // let arr = [1,2,3,4,5,6,7,8,9]
+    // function sumArray(arr){
+    //     return arr.reduce((acc, c)=> +acc + +c)
+    // }
+    // console.log(sumArray(arr))
 /*************************************************************** */
+//How do you look for a specific object in an array of objects?
+    // let arrOfObj = [{name: 'Bob', age: 21}, {name: 'Terry', age: 32}, {name: 'Skrimy', age: '321'}]
+    // //look for obj with name of 'Skrimy'
+    // const findObjInArrByName = (arr, name) => arr.find(obj=>obj.name == name)
+    // console.log(findObjInArrByName(arrOfObj, 'Skrimy'))
+    // //look for obj with age of 32
+    // const findObjInArrByAge = (arr,age) => arr.find(obj=>obj.age == age)
+    // console.log(findObjInArrByAge(arrOfObj, 32))
 /*************************************************************** */
+//sort array in ascending numerical order
+/**** BE CAREFUL WHEN USING SORT AS IT MUTATES THE ORIGINAL ARRAY, TRY SLICING THE ORIGINAL ARRAY FIRST ***/
+    // function sortArrayAscending(arr){
+    //     return arr.slice().sort((a,b)=> a-b) //by slicing the original array you keep sort from mutating it 
+    // }
+    // //could also do
+    // const sortArrayAscendingArrow = arr => arr.slice().sort((a,b)=> a-b)
+    // console.log(sortArrayAscending(arr))
+    // console.log(sortArrayAscendingArrow(arr))
+    // console.log(arr)//logged to show that original array is NOT MUTATED 
+    // console.log(arrOfObj)
+/******************************************************************** */
+// For a given list of digits 0 to 9, return a list with the same digits in the same order, but with all 0s paired.
+// Pairing two 0s generates one 0 at the location of the first one.
+//const pairZeros = (a,f)=>a.filter(n=>n||(f=!f))
+//const pairZeros = (a, f) => a.filter(n => n || (f != f))
+    //const pairZeros = (arr, f) => arr.filter(element => element || (f != f))
+
+    //const pairZeros = (arr, zero) => arr.filter(element => element || (zero != zero)) // for each element return that element or huh? not entirely sure 
