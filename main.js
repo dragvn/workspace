@@ -1161,6 +1161,9 @@ ARRAY METHODS
     // console.log(sortArrayDescending(acscendingArr))
     // console.log(acscendingArr)
 /********************************************************************* */
+//SQUARE EVERY ELEMENT OF AN ARRAY AND COMBINE INTO ONE SUM
+    // const sqaureSum = arr => arr.reduce((sum,num)=> +sum + (num ** 2), 0)
+    // console.log(sqaureSum(consecutiveArr))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
