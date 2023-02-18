@@ -1213,6 +1213,10 @@ ARRAY METHODS
 //SORT ARRAY IN ASCENDING NUMERICAL ORDER
     //const sortArrayAscending = arr => arr.slice().sort((a,b)=> a - b)
 /********************************************************************* */
+//RETURN THE CENTURY FOR A GIVEN YEAR
+    // const century = year => Math.ceil(year/100)//ceiling method rounds up to nearest 100
+    // console.log(century(1245))
+    // console.log(century(1200))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
