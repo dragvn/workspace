@@ -1165,11 +1165,53 @@ ARRAY METHODS
     // const sqaureSum = arr => arr.reduce((sum,num)=> +sum + (num ** 2), 0)
     // console.log(sqaureSum(consecutiveArr))
 /********************************************************************* */
+//SUM TWO NUMS, RETURN RESULT IN BINARY
+    // function binarySum(a,b){
+    //     return (a+b).toString(2)
+    // }
+    // const binarySum = (a,b)=>(a+b).toString(2)
+    // const binarySum = (a,b)=>(a+b).toString(2)
+    // const binarySum = (a,b)=>(a+b).toString(2)
 /********************************************************************* */
+//SQUARE EVERY ELEMENT OF AN ARRAY AND SUM IT
+    // const sumOfSquares = arr => arr.reduce((sum,num)=> +sum + (num * num))
+    // console.log(sumOfSquares(consecutiveArr))
 /********************************************************************* */
+    // function firstNonConsecutive(arr){
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i + 1] !== arr[i] + 1){
+    //             return arr[i + 1]
+    //         }
+    //     }
+    //     return 'Tiidi'
+    // }
+    // console.log(firstNonConsecutive(nonconsecutiveArr))
+    // console.log(firstNonConsecutive(consecutiveArr))
 /********************************************************************* */
+// For a given list of digits 0 to 9, return a list with the same digits in the same order, but with all 0s paired.
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (a,f) => a.filter(n => n || (f = !f))
 /********************************************************************* */
+//DECLARE A CLASS NAMED 'MAKECAR' WITH 4 PROPERTIES AND 2 METHODS
+    // class MakeCar{
+    //     constructor(make,model,doors,color){
+    //         this._make = make
+    //         this._modlel = model
+    //         this._doors = doors
+    //         this.color = color //this could change, unlike the other properties
+    //     }
+    //     honk(){
+    //         alert('bbbepp')
+    //     }
+    //     lock(){
+    //         alert('doors are locked')
+    //     }
+    // }
+
+    // let zCar = new MakeCar('Datsun', '240z', 2, 'Black')
 /********************************************************************* */
+//SORT ARRAY IN ASCENDING NUMERICAL ORDER
+    //const sortArrayAscending = arr => arr.slice().sort((a,b)=> a - b)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
