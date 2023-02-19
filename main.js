@@ -1218,8 +1218,19 @@ ARRAY METHODS
     // console.log(century(1245))
     // console.log(century(1200))
 /********************************************************************* */
+//FIND NEAREST SQUARE NUM TO PR0VIDED NUM
+    //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
 /********************************************************************* */
+//FIND OBJ WITH NAME PROPERTY 'Skrimy'
+    // const findName = (arr, name) => arr.find(e => e.name == name)
+    // console.log(findName(arrOfObj, 'Skrimy'))
+    // console.log(findName(arrOfObj, 'Bob'))
+    // console.log(findName(arrOfObj, 'Boob'))
 /********************************************************************* */
+//RETURN THE CENTURY FOR A GIVEN YEAR
+    // const century = year => Math.ceil(year/100)
+    // console.log(century(1701))
+    // console.log(century(1700))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
