@@ -1232,6 +1232,8 @@ ARRAY METHODS
     // console.log(century(1701))
     // console.log(century(1700))
 /********************************************************************* */
+//CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    //const cubeChecker = (volume,side) => volume > 0 && side > 0 && volume === Math.pow(side, 3)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
