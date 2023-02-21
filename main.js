@@ -1235,7 +1235,12 @@ ARRAY METHODS
 //CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
     //const cubeChecker = (volume,side) => volume > 0 && side > 0 && volume === Math.pow(side, 3)
 /********************************************************************* */
+//SQUARE EVERY ELEMENT OF AN ARRAY AND COMBINE INTO ONE SUM
+    // const sqaureSum = arr => arr.reduce((sum, num)=> +sum + (num * num))
+    // console.log(sqaureSum([1,2,3]))
 /********************************************************************* */
+//CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    //const cubeChecker = (vol, side) => vol > 0 && side > 0 && vol === Math.pow(side, 3)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
