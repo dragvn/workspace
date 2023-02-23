@@ -1242,7 +1242,12 @@ ARRAY METHODS
 //CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
     //const cubeChecker = (vol, side) => vol > 0 && side > 0 && vol === Math.pow(side, 3)
 /********************************************************************* */
+//CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    //const isCube = (side,vol) => side > 0 && vol > 0 && vol === Math.pow(side,3)
 /********************************************************************* */
+//SORT AN ARRAY IN NUMERICAL ASCENDING ORDER
+    // const sortArrayAscending = arr => arr.sort((a,b)=> a-b)
+    // console.log(sortArrayAscending(nonAscendingArr))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
