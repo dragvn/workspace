@@ -1249,7 +1249,15 @@ ARRAY METHODS
     // const sortArrayAscending = arr => arr.sort((a,b)=> a-b)
     // console.log(sortArrayAscending(nonAscendingArr))
 /********************************************************************* */
+//RETURN THE CENTURY FOR A GIVEN YEAR
+    // const century = num => Math.ceil(num/100)
+    // console.log(century(1100))
+    // console.log(century(1000))
+    // console.log(century(1001))
+    // console.log(century(999))
 /********************************************************************* */
+//FIND NEAREST SQUARE NUM TO PROVIDED NUM 
+    //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
