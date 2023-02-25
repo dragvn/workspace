@@ -1259,9 +1259,42 @@ ARRAY METHODS
 //FIND NEAREST SQUARE NUM TO PROVIDED NUM 
     //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0'S PAIRED
+//PAIRING TWO 0'S GENERATES ONE 0 AT THE LOCATION OF THE FIRST ONE
+    //const pairZeros = (arr,f) => arr.filter(n => n || (f = !f))
 /********************************************************************* */
+//SUM ALL NUMS IN AN ARRAY
+    // const sumArray = arr => arr.reduce((sum, num)=> +sum + +num)
+    // console.log(sumArray(acscendingArr))
 /********************************************************************* */
+//DECLARE A CLASS NAMED 'MakeCar' WITH 4 PROPERTIES AND 2 METHODS
+        // class MakeCar {
+        //     constructor(make, model, doors, color){
+        //         this._make = make
+        //         this._model = model
+        //         this._doors = doors
+        //         this.color = color //this could change
+        //     }
+        //     honk(){
+        //         console.log('bepp')
+        //     }
+        //     lock(){
+        //         console.log(`Locked ${this._doors} doors`)
+        //     }
+        // }
+        // let zCar = new MakeCar('Datsun', '240z', 2, 'Green')
 /********************************************************************* */
+//FIND THE FIRST ELEMENT OF AN ARRAY OF NUMS THAT IS NOT CONSECUTIVE
+    // function firstNonConsecutive(arr){
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i + 1] !== arr[i] + 1){
+    //             return arr[i + 1]
+    //         }
+    //     }
+    //     return null
+    // }
+    // console.log(firstNonConsecutive(consecutiveArr))
+    // console.log(firstNonConsecutive(nonconsecutiveArr))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
