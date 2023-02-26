@@ -1296,7 +1296,13 @@ ARRAY METHODS
     // console.log(firstNonConsecutive(consecutiveArr))
     // console.log(firstNonConsecutive(nonconsecutiveArr))
 /********************************************************************* */
+//CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    // const isCube = (vol, side) => vol > 0 && side > 0 && vol === Math.pow(side, 3)
+    // console.log(isCube(27,3))
+    // console.log(isCube(9,2))
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+    //const pairZeros = (arr, f) => arr.filter((n => n || f != f))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
