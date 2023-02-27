@@ -1304,7 +1304,17 @@ ARRAY METHODS
 //FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
     //const pairZeros = (arr, f) => arr.filter((n => n || f != f))
 /********************************************************************* */
+//FIND SPECIFIC OBJECT IN ARRAY OF OBJECTS
+    //FIND OBJ WITH AGE 21 IN arrOfObj
+
+    // const findObjInArrByAge = (arr, age) => arr.find(item => item.age == age)
+    // console.log(findObjInArrByAge(arrOfObj, 21))
 /********************************************************************* */
+//Implement a function that accepts 3 integer values a, b, c.
+// The function should return true if a triangle can be built with the sides of given length and false in any other case.
+// (In this case, all triangles must have surface greater than 0 to be accepted).
+
+    //const isTriangle = (a, b, c) => a + b > c && a + c > b && b + c > a
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
