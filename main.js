@@ -1324,9 +1324,16 @@ ARRAY METHODS
 //REVERSE STRING WITH A LOOP
     // let str = 'Tiddies in my face'
 
-    // const reverseString = str => str.split('').reverse().join('')
+    // //const reverseString = str => str.split('').reverse().join('') //not a loop
+    // function reverseStringWithLoop(str){
+    //     let z = '' // make sure to declare this var outside of loop 
+    //     for(i = str.length -1; i >= 0; i--){
+    //         z += str[i]
+    //     }
+    //     return z
+    // }
 
-    // console.log(reverseString(str))
+    // console.log(reverseStringWithLoop(str))
 
 /********************************************************************* */
 /********************************************************************* */
