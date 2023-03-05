@@ -1337,8 +1337,27 @@ ARRAY METHODS
     //beep
 
 /********************************************************************* */
+// Implement a function that accepts 3 integer values a, b, c.
+// The function should return true if a triangle can be built with the sides of given length and false in any other case.
+
+// (In this case, all triangles must have surface greater than 0 to be accepted).
+
+    //const isTriangle = (a,b,c) => a + b > c && a + c > b && b + c > a ? true : false
 /********************************************************************* */
+//square every element of an array and combine in to one sum
+    //const sqaureSum = arr => arr.reduce((sum, num)=> +sum + (num * num), 0)
 /********************************************************************* */
+//find the first element of an array of numbers that is not consecutive.
+function firstNonConsecutive(arr) {
+    for(i=0;i < arr.length-1;i++){
+        if(arr[i] + 1 != arr[i+1]){
+            return arr[i+1]
+        }
+    }
+    return null
+}
+console.log(firstNonConsecutive(consecutiveArr))
+console.log(firstNonConsecutive(nonconsecutiveArr))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
