@@ -1348,17 +1348,20 @@ ARRAY METHODS
     //const sqaureSum = arr => arr.reduce((sum, num)=> +sum + (num * num), 0)
 /********************************************************************* */
 //find the first element of an array of numbers that is not consecutive.
-function firstNonConsecutive(arr) {
-    for(i=0;i < arr.length-1;i++){
-        if(arr[i] + 1 != arr[i+1]){
-            return arr[i+1]
-        }
-    }
-    return null
-}
-console.log(firstNonConsecutive(consecutiveArr))
-console.log(firstNonConsecutive(nonconsecutiveArr))
+    // function firstNonConsecutive(arr) {
+    //     for(i=0;i < arr.length-1;i++){
+    //         if(arr[i] + 1 != arr[i+1]){
+    //             return arr[i+1]
+    //         }
+    //     }
+    //     return null
+    // }
+    // console.log(firstNonConsecutive(consecutiveArr))
+    // console.log(firstNonConsecutive(nonconsecutiveArr))
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (arr, f) => arr.filter(n => n || (f = !f))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
