@@ -1363,6 +1363,10 @@ ARRAY METHODS
 // Pairing two 0s generates one 0 at the location of the first one.
     //const pairZeros = (arr, f) => arr.filter(n => n || (f = !f))
 /********************************************************************* */
+//CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    // const isCube = (v,l) => v > 0 && l > 0 && Math.pow(l, 3) === v
+    // console.log(isCube(27, 3))
+    // console.log(isCube(37, 3))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
