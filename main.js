@@ -1417,10 +1417,28 @@ ARRAY METHODS
     //     return true
     // }
 /********************************************************************* */
+//easiest way to sum all nums in an array
+    //const sumArray = arr => arr.reduce((sum, num)=> +sum + +num, 0)
 /********************************************************************* */
+// There is a bus moving in the city which takes and drops some people at each bus stop.
+// You are provided with a list (or array) of integer pairs.
+//Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+// Your task is to return the number of people who are still on the bus after the last bus stop (after the last array).
+//Even though it is the last bus stop, the bus might not be empty and some people might still be inside the bus, they are probably sleeping there :D
+// Take a look on the test cases.
+// Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the returned integer can't be negative.
+// The second value in the first pair in the array is 0, since the bus is empty in the first bus stop
 /********************************************************************* */
+    //const remainingPassengers = arr => arr.reduce((onBus, [on, off])=> onBus + on - off, 0)
 /********************************************************************* */
+// Complete the findNextSquare method that finds the next integral perfect square after the one passed as a parameter.
+//Recall that an integral perfect square is an integer n such that sqrt(n) is also an integer.
+// If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is non-negative.
+    //const findNextSquare = n => Number.isInteger(Math.sqrt(n)) ? Math.pow(Math.sqrt(n)+1, 2) : -1
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (a,f) => a.filter(n => n || (f = !f)) 
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
