@@ -1440,7 +1440,26 @@ ARRAY METHODS
 // Pairing two 0s generates one 0 at the location of the first one.
     //const pairZeros = (a,f) => a.filter(n => n || (f = !f)) 
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (arr,f) => arr.filter(n=> n || (f = !f))
 /********************************************************************* */
+//declare class 'MakeCar' with 4 properties and 2 methods
+class MakeCar {
+    constructor(make,model,color,doors){
+        this._make = make,
+        this._model = model,
+        this.color = color,
+        this._doors = doors
+    }
+        honk(){
+            console.log('bbbepep')
+        }
+        lock(){
+            console.log(`locked it tahe fuckk up ${this._doors} door style`)
+        }
+}
+let scrujb = new MakeCar('mazonda', 'proplyyi', 'hot pink', 3)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
