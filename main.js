@@ -1486,7 +1486,18 @@ ARRAY METHODS
 
     //const findNextSquare = n => Number.isInteger(Math.sqrt(n)) ? Math.pow(Math.round(Math.sqrt(n) + 1), 2) : -1
 /********************************************************************* */
+// Find obj with name 'booty' in array of objects 'coolStuff'
+    // let coolStuff = [{name: 'cheekz', cool: true}, {name: 'buns', cool: true}, {name: 'booty', cool: true}]
+    // const findCoolThing = (arr, lookinFor) => {
+    //     let found = arr.find(item => item.name == lookinFor)
+    //     return found
+    // }
+
+    // console.log(findCoolThing(coolStuff, 'booty'))
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (a,f) => a.filter(n => n || (f = !f))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
