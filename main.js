@@ -1499,7 +1499,25 @@ ARRAY METHODS
 // Pairing two 0s generates one 0 at the location of the first one.
     //const pairZeros = (a,f) => a.filter(n => n || (f = !f))
 /********************************************************************* */
+// Create a function with two arguments that will return an array of the first n multiples of x.
+// Return the results as an array or list ( depending on language ).
+    // const nMulitplesOfX = (n, x) => {
+    //     let arr = []
+    //     for(i=1;i<=n;i++){
+    //         arr.push(i * x)
+    //     }
+    //     return arr
+    // }
+
+    // console.log(nMulitplesOfX(3,3))
+    // console.log(nMulitplesOfX(6,4))
+    // console.log(nMulitplesOfX(2,27))
 /********************************************************************* */
+// Implement a function that accepts 3 integer values a, b, c.
+// The function should return true if a triangle can be built with the sides of given length and false in any other case.
+
+// (In this case, all triangles must have surface greater than 0 to be accepted).
+    //const isTriangle = (a,b,c) => a + b > c && a + c > b && b + c > a 
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
