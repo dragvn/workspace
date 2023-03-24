@@ -1543,6 +1543,9 @@ ARRAY METHODS
     // const sortArrayAscending = arr => arr.sort((a,b)=> a - b )
     // console.log(sortArrayAscending(unorderedArrOfNums))
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (arr, f) => arr.filter(n => n || (f = !f))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
