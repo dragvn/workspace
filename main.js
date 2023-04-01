@@ -1583,6 +1583,145 @@ ARRAY METHODS
     // console.log(findNextSquare(4))                           NICE WORK!!!!
     // console.log(findNextSquare(5))
 /********************************************************************* */
+
+
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+
+    // class Character{
+    //     constructor(name,age,height,dob, title,quote){
+    //         this.name = name
+    //         this.age = age
+    //         this.height = height
+    //         this.dob = dob
+    //         this.title = title
+    //         this.quote = quote
+    //     }
+    // }
+
+    // let gendoIkari = new Character('Gendo Ikari', 48, 192, '04/29/1967', 'Commander of NERV', 'Mankind\'s greatest fear is mankind itself.')
+    // let ritsukoAkagi = new Character('Ritsuko Akagi', 30, 166, '11/21/1985','NERV Chief Scientist', 'Even though a hedgehog may want to become close with another hedgehog. The closer they get the more they injure each other with their spines.')
+    // let shinjiIkari = new Character('Shinji Ikari', 14, 'unknown', '06/06/2001', 'Pilot Eva-01', 'I mustn\'t run away')
+    // let reiAyanami = new Character('Rei Ayanami', 14, 'unknown', 'unknown', 'Pilot Eva Unit-00', 'Those who hate themselves cannot love or trust others.')
+    // let asukaLSoryu = new Character('Asuka Langley Soryu', 13, 'unknown', '12/04/2001', 'Pilot Eva Unit-02', 'It is simply the duty of the elite to protect the ignorant masses.')
+    // let misatoKatsuragi = new Character('Misato Katsuragi', 29, 166, '12/08/1986', 'Major, NERV Tactical Operations Branch', 'Part of growing up means finding away to interact with others while distancing pain.')
+    // let ryojiKaji = new Character('Ryoji Kaji', 30, 182, '06/17/1985', 'NERV Chief Inspector', 'So, I understand you\'re living with Katsuragi.')
+    // let kozoFuyutsuki = new Character('Kozo Fuyutsuki', 59, 189, '04/09/1956', 'NERV Vice Commander', 'Your truth can be changed simply by the way you accept it. That\'s how fragile the truth for a human is.')
+    // let kensukeAida = new Character('Kensuke Aida', 14, 147, '09/12/2001', 'Eva pilot candidate', 'Huh? Oh, don\'t worry about my mother. I don\'t have one of those.' )
+    // let yuiIkari = new Character('Yui Ikari', 'Deceased (27)','unknown', '03/30/1977', 'Gehirn Bioengineer', 'Anywhere can be a paradise as long as you have the will to live.')
+    // let kaworuNagisa = new Character('Kaworu Nagisa', 15, 'unknown', '09/13/2000', 'Fifth Child/17th Angel', 'Since the heart feels pain so easily some believe life is pain.')
+    // let naokoAkagi = new Character('Naoko Akagi', 'deceased', 'unknown', 'unknown', 'Gehirn Chief Scientist', 'none')
+/********************************************************************* */
+//find the first element of an array of numbers that is not consecutive.
+    // const firstNonConsecutive = arr => {
+    //     for(i=0;i<arr.length-1;i++){
+    //         if(arr[i] + 1 !== arr[i + 1]){
+    //             return arr[i + 1]
+    //         }
+    //     }
+    //     return null
+    // }
+    // console.log(firstNonConsecutive(consecutiveArr))
+    // console.log(firstNonConsecutive(nonconsecutiveArr))
+/********************************************************************* */
+////CHECK TO SEE IF SHAPE IS CUBE WHEN GIVEN VOLUME AND LENGTH OF ONE SIDE
+    // const isCube = (vol, l) => vol === l * l *l
+    // console.log(isCube(9,3))
+    // console.log(isCube(27,3))
+/********************************************************************* */
+// Given a string s. You have to return another string such that even-indexed and odd-indexed characters of s are grouped and groups are space-separated (see sample below)
+
+// Note:
+// 0 is considered to be an even index.
+// All input strings are valid with no spaces
+// input: 'CodeWars'
+// output 'CdWr oeas'
+
+// S[0] = 'C'
+// S[1] = 'o'
+// S[2] = 'd'
+// S[3] = 'e'
+// S[4] = 'W'
+// S[5] = 'a'
+// S[6] = 'r'
+// S[7] = 's'
+// Even indices 0, 2, 4, 6, so we have 'CdWr' as the first group
+// odd ones are 1, 3, 5, 7, so the second group is 'oeas'
+// And the final string to return is 'Cdwr oeas'
+
+    // const oddEvens = s => {
+    //     let odd = s.split('').filter((e,i)=> i % 2 !== 0).join('')
+    //     let even = s.split('').filter((e,i)=> i % 2 === 0).join('')
+    //     return even + ' ' + odd
+    // } 
+    // console.log(oddEvens('CodeWars'))
+
+/********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+    //const pairZeros = (arr, f) => arr.filter((n)=> n || (f != f))
+/********************************************************************* */
+//find obj with age 32 in array of objects
+    // const findObjInArrByAge = (arr, age) => arr.find((obj)=> obj.age === age)
+    // console.log(findObjInArrByAge(arrOfObj, 32))
+    // console.log(findObjInArrByAge(arrOfObj, 22))
+/********************************************************************* */
+
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
+/********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
