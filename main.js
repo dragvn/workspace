@@ -1682,7 +1682,48 @@ ARRAY METHODS
 
     // console.log(lineNumbers(["a", "b", "c"]))
 /********************************************************************* */
+// Given a string s. You have to return another string such that even-indexed and odd-indexed characters of s are grouped and groups are space-separated (see sample below)
+
+// Note:
+// 0 is considered to be an even index.
+// All input strings are valid with no spaces
+// input: 'CodeWars'
+// output 'CdWr oeas'
+
+// S[0] = 'C'
+// S[1] = 'o'
+// S[2] = 'd'
+// S[3] = 'e'
+// S[4] = 'W'
+// S[5] = 'a'
+// S[6] = 'r'
+// S[7] = 's'
+// Even indices 0, 2, 4, 6, so we have 'CdWr' as the first group
+// odd ones are 1, 3, 5, 7, so the second group is 'oeas'
+// And the final string to return is 'Cdwr oeas'
+
+    // const oddEvens = str => {
+    //     let even = str.split('').filter((n, i)=> i % 2 === 0).join('')
+    //     let odd = str.split('').filter((n, i)=> i % 2 !== 0).join('')
+    //     return even + ' ' + odd
+    // }
+    // console.log(oddEvens('Codewars'))
 /********************************************************************* */
+// There is a bus moving in the city which takes and drops some people at each bus stop.
+
+// You are provided with a list (or array) of integer pairs.
+//Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+
+// Your task is to return the number of people who are still on the bus after the last bus stop (after the last array).
+//Even though it is the last bus stop, the bus might not be empty and some people might still be inside the bus, they are probably sleeping there :D
+
+// Take a look on the test cases.
+
+// Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the returned integer can't be negative.
+
+// The second value in the first pair in the array is 0, since the bus is empty in the first bus stop
+
+    //let remainingPassengers = arr => arr.reduce((total, [on, off])=> total + on - off, 0)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
