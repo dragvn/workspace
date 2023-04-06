@@ -1725,6 +1725,8 @@ ARRAY METHODS
 
     //let remainingPassengers = arr => arr.reduce((total, [on, off])=> total + on - off, 0)
 /********************************************************************* */
+// Implement a function that adds two numbers together and returns their sum in binary
+    //const binarySum = (a, b) => (a + b).toString(2)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
