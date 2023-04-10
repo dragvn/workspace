@@ -1752,13 +1752,58 @@ ARRAY METHODS
 // [] --> []
 // ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 
-const appendStr = arr => arr.map((v,i)=> `${i+1}: ${v}`)
+    //const appendStr = arr => arr.map((v,i)=> `${i+1}: ${v}`)
 
 /********************************************************************* */
+//reverse a string using built in methods
+    // const reverseString = str => str.split('').reverse().join('')
+    // console.log(reverseString('boobs'))
 /********************************************************************* */
+//reverse string with loop
+    // const reverseStringWithLoop = str => {
+    //     let z = ''
+    //     for(i=str.length-1;i>=0;i--){
+    //         z += str[i]
+    //     }
+    //     return z
+    // }
+    // console.log(reverseStringWithLoop('boobs'))
 /********************************************************************* */
+//Implement a function that adds two numbers together and returns their sum in binary
+    //const binarySum = (a,b) => (a + b).toString(2)
 /********************************************************************* */
+// Given a string s. You have to return another string such that even-indexed and odd-indexed characters of s are grouped and groups are space-separated (see sample below)
+
+// Note:
+// 0 is considered to be an even index.
+// All input strings are valid with no spaces
+// input: 'CodeWars'
+// output 'CdWr oeas'
+
+// S[0] = 'C'
+// S[1] = 'o'
+// S[2] = 'd'
+// S[3] = 'e'
+// S[4] = 'W'
+// S[5] = 'a'
+// S[6] = 'r'
+// S[7] = 's'
+// Even indices 0, 2, 4, 6, so we have 'CdWr' as the first group
+// odd ones are 1, 3, 5, 7, so the second group is 'oeas'
+// And the final string to return is 'Cdwr oeas'
+
+    // const evenOdds = str => {
+    //     let even = str.split('').filter((v,i)=> i % 2 === 0).join('')
+    //     let odd = str.split('').filter((v,i)=> i % 2 !== 0 ).join('')
+    //     return `${even} ${odd}`
+    // }
+
+    //console.log(evenOdds('CodeWars'))
 /********************************************************************* */
+//FOR A GIVEN LIST OF DIGITS 0 TO 9, RETURN A LIST WITH THE SAME DIGITS IN THE SAME ORDER, BUT WITH ALL 0S PAIRED
+// Pairing two 0s generates one 0 at the location of the first one.
+
+    //const pairZeros = (arr, v) => arr.filter(n => n || (v = !v)) 
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
