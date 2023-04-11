@@ -1805,7 +1805,19 @@ ARRAY METHODS
 
     //const pairZeros = (arr, v) => arr.filter(n => n || (v = !v)) 
 /********************************************************************* */
+// Complete the findNextSquare method that finds the next integral perfect square after the one passed as a parameter.
+//Recall that an integral perfect square is an integer n such that sqrt(n) is also an integer.
+// If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is non-negative.
+
+    //const findNextSquare = n => Number.isInteger(Math.sqrt(n)) ? Math.pow(Math.sqrt(num)+1, 2) : -1
 /********************************************************************* */
+//check to see if two strings are anagrams
+
+    // const isAnagram = (str1, str2) => {
+    //     let a = str1.split('').sort().join('')
+    //     let b = str2.split('').sort().join('')
+    //     return a === b
+    // }
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
