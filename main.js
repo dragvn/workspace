@@ -1819,7 +1819,11 @@ ARRAY METHODS
     //     return a === b
     // }
 /********************************************************************* */
+//find nearest square to provided number
+    //const nearestSq = n => Math.power(Math.round(Math.sqrt(n)), 2) //take sqaure root of n, round it, square it. 
 /********************************************************************* */
+//square every element of an array and combine in to one sum
+    //const sumOfSquares = arr => arr.reduce((pV, cV)=> +pV + (cV ** 2), 0)
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
