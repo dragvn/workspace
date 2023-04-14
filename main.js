@@ -1823,9 +1823,12 @@ ARRAY METHODS
     //const nearestSq = n => Math.power(Math.round(Math.sqrt(n)), 2) //take sqaure root of n, round it, square it. 
 /********************************************************************* */
 //square every element of an array and combine in to one sum
-    //const sumOfSquares = arr => arr.reduce((pV, cV)=> +pV + (cV ** 2), 0)
+    //const squaresSum = arr => arr.reduce((sum,cur)=> +sum + (cur ** 2), 0)
 /********************************************************************* */
+//return the century for a given year
+    //const century = year => Math.ceil(year/100)
 /********************************************************************* */
+
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
