@@ -1834,6 +1834,19 @@ ARRAY METHODS
 //check to see if two strings are anagrams 
     //const isAnagram = (str1, str2) => str1.split('').sort().join('') === str2.split('').sort().join('')
 /********************************************************************* */
+//BINARY SEARCH
+    // let arr = [1,2,3,4,5,6,7,8]
+    // let start = 0
+    // let end = length - 1
+    // let target = 8
+
+    // function binarySearch(arr, start, end, target){
+    //     if(start > end) return false
+    //     let middleIndex = Math.floor((start + end) / 2)
+    //     if(arr[middleIndex] === target) return true
+    //     if(arr[middleIndex] > target) return binarySearch(arr, start, middleIndex - 1, target)
+    //     else return binarySearch(arr, middleIndex + 1, end, target)
+    // }
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
