@@ -1831,6 +1831,8 @@ ARRAY METHODS
 //find nearest sqaure to provided num
     //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
 /********************************************************************* */
+//check to see if two strings are anagrams 
+    //const isAnagram = (str1, str2) => str1.split('').sort().join('') === str2.split('').sort().join('')
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
