@@ -2078,25 +2078,42 @@ usersMapped = [
 // // // ...
 // // All element orders should have an equal probability. For instance, [1,2,3] can be reordered as [1,2,3] or [1,3,2] or [3,1,2] etc, with equal probability of each case.
 /********************************************************************* */
-// Get average age
-// importance: 4
-// Write the function getAverageAge(users) that gets an array of objects with property age and returns the average age.
+// // Get average age
+// // importance: 4
+// // Write the function getAverageAge(users) that gets an array of objects with property age and returns the average age.
 
-// The formula for the average is (age1 + age2 + ... + ageN) / N.
+// // The formula for the average is (age1 + age2 + ... + ageN) / N.
+
+// // For instance:
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 29 };
+
+// let arr = [ john, pete, mary ];
+
+// //SOLUTION
+// const getAverageAge = arr => arr.reduce((sum, user)=> +sum + user.age, 0) / arr.length 
+
+// console.log( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
+/********************************************************************* */
+// Filter unique array members
+// importance: 4
+// Let arr be an array.
+
+// Create a function unique(arr) that should return an array with unique items of arr.
 
 // For instance:
 
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 29 };
+function unique(arr) {
+  /* your code */
+}
 
-let arr = [ john, pete, mary ];
+let strings = ["Hare", "Krishna", "Hare", "Krishna",
+  "Krishna", "Krishna", "Hare", "Hare", ":-O"
+];
 
-//SOLUTION
-const getAverageAge = arr => arr.reduce((sum, user)=> +sum + user.age, 0) / arr.length 
-
-console.log( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
-/********************************************************************* */
+alert( unique(strings) ); // Hare, Krishna, :-O
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
