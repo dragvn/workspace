@@ -1865,21 +1865,49 @@ ARRAY METHODS
     //return right side otherwise
 
 //BINARY SEARCH FUNC
-    let arr = [1,2,3,4,5,6,7,8]
-    let start = 0
-    let end = length - 1
-    let target = 8
+    // let arr = [1,2,3,4,5,6,7,8]
+    // let start = 0
+    // let end = length - 1
+    // let target = 8
 
-function binarySearch(arr,start,end,target){
-    if(start > end) return false //put this in to keep from blowing the stack, this is the BASE CONDITION
-    let middleIndex = Math.floor((start + end)/ 2)//finding middle index
-    if(arr[middleIndex] === target) return true//checking middleIndex value against target
-    if(arr[middleIndex] > target) return binarySearch(arr,start, middleIndex - 1, target)//return left half of array
-    else return binarySearch(arr, middleIndex + 1, end, target)//return right half
-}
-
-
+    // function binarySearch(arr,start,end,target){
+    //     if(start > end) return false //put this in to keep from blowing the stack, this is the BASE CONDITION
+    //     let middleIndex = Math.floor((start + end)/ 2)//finding middle index
+    //     if(arr[middleIndex] === target) return true//checking middleIndex value against target
+    //     if(arr[middleIndex] > target) return binarySearch(arr,start, middleIndex - 1, target)//return left half of array
+    //     else return binarySearch(arr, middleIndex + 1, end, target)//return right half
+    // }
+    
 /********************************************************************* */
+//BINARY SEARCH
+//PARAMS
+    //ARRAY, START, END, TARGET
+//RETURN 
+    //TRUE OR FALSE
+//EXAMPLE
+    //let arr = [1,2,3,4]
+    //target val (4) returns true
+    //target val (5) returns false
+//PSEUDO
+    //base condition if start > end return false
+    //find middleIndex
+    //if middleIndex === target return true
+    //if middleIndex > target return left side of array
+    //else return right side of array
+
+    // let arr = [1,2,3,4,5,6,7,8]
+    // let start = 0
+    // let end = arr.length - 1
+    // let target = 8
+
+    // function binarySearch(arr, start, end, target){
+    //     if(start > end) return false
+    //     let middleIndex = Math.floor(end / 2)
+    //     if(arr[middleIndex] === target) return true
+    //     if(arr[middleIndex] > target) return binarySearch(arr, start, middleIndex - 1, target)//middleIndex - 1 is new end val, returns left side of array
+    //     else return binarySearch(start, middleIndex + 1, end, target)//right side 
+    // }
+    
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
