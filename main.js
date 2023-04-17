@@ -1848,6 +1848,37 @@ ARRAY METHODS
     //     else return binarySearch(arr, middleIndex + 1, end, target)
     // }
 /********************************************************************* */
+//BINARY SEARCH PREP
+//PARAMETERS
+    //ARRAY, START INDEX, LAST INDEX, TARGET VALUE
+//RETURN
+    //TRUE IF VAL IS FOUND, FALSE OTHERWISE
+//EXAMPLE
+    //let arr = [1,2,3,4]
+    //target val (4) returns true
+    //target val (5) returns false
+//PSEUDO
+    //base condition if start > end (return false)
+    //find middle index
+    //check middleIndex against target (if equal return true)
+    //return left side if middleIndex greater than target
+    //return right side otherwise
+
+//BINARY SEARCH FUNC
+    let arr = [1,2,3,4,5,6,7,8]
+    let start = 0
+    let end = length - 1
+    let target = 8
+
+function binarySearch(arr,start,end,target){
+    if(start > end) return false //put this in to keep from blowing the stack, this is the BASE CONDITION
+    let middleIndex = Math.floor((start + end)/ 2)//finding middle index
+    if(arr[middleIndex] === target) return true//checking middleIndex value against target
+    if(arr[middleIndex] > target) return binarySearch(arr,start, middleIndex - 1, target)//return left half of array
+    else return binarySearch(arr, middleIndex + 1, end, target)//return right half
+}
+
+
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
