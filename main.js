@@ -2060,19 +2060,20 @@ let arr = [1, 2, 3];
 
 //SOLUTION (Fisher-Yates Shuffle)
 function shuffle(array){
-    for(let i = array.length -1; i > 0; i--){ //walk array in reverse
-        let j = Math.floor(Math.random() * (i + 1)) //random index from 0 to i
-        [array[i], array[j]] = [array[j], array[i]] //swap array[i] and array[j] using destructuring assigment syntax
+    for(let i = array.length - 1; i > 0; i--){ //walk array in reverse
+        let j = Math.floor(Math.random() * (i + 1)); //random index from 0 to i
+        [array[i], array[j]] = [array[j], array[i]]; //swap array[i] and array[j] using destructuring assigment syntax
     }
+    return array
 }
 
-shuffle(arr);
+console.log(shuffle(arr));
 // arr = [3, 2, 1]
 
-shuffle(arr);
+console.log(shuffle(arr));
 // arr = [2, 1, 3]
 
-shuffle(arr);
+console.log(shuffle(arr));
 // arr = [3, 1, 2]
 // // ...
 // All element orders should have an equal probability. For instance, [1,2,3] can be reordered as [1,2,3] or [1,3,2] or [3,1,2] etc, with equal probability of each case.
