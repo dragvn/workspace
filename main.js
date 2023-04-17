@@ -2050,6 +2050,32 @@ usersMapped = [
 // console.log(arr[1].name); // Mary
 // console.log(arr[2].name); // Pete
 /********************************************************************* */
+// Shuffle an array
+// importance: 3
+// Write the function shuffle(array) that shuffles (randomly reorders) elements of the array.
+
+// Multiple runs of shuffle may lead to different orders of elements. For instance:
+
+let arr = [1, 2, 3];
+
+//SOLUTION (Fisher-Yates Shuffle)
+function shuffle(array){
+    for(let i = array.length -1; i > 0; i--){ //walk array in reverse
+        let j = Math.floor(Math.random() * (i + 1)) //random index from 0 to i
+        [array[i], array[j]] = [array[j], array[i]] //swap array[i] and array[j] using destructuring assigment syntax
+    }
+}
+
+shuffle(arr);
+// arr = [3, 2, 1]
+
+shuffle(arr);
+// arr = [2, 1, 3]
+
+shuffle(arr);
+// arr = [3, 1, 2]
+// // ...
+// All element orders should have an equal probability. For instance, [1,2,3] can be reordered as [1,2,3] or [1,3,2] or [3,1,2] etc, with equal probability of each case.
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
