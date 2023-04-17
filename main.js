@@ -1923,40 +1923,132 @@ ARRAY METHODS
     //const appendArrOfStr = arr => arr.map((v,i)=> `${i + 1}: ${v}`)
 /********************************************************************* */
 //MERGE SORT
-function mergeSort(arr){
-    if(arr.length < 2){
-      return arr
-    }
-    const middleIndex = Math.floor(arr.length / 2)
-    const leftHalf = arr.slice(0, middleIndex)
-    const rightHalf = arr.slice(middleIndex, arr.length) //slice doesnt include last val so no need for -1
-    return merge(mergeSort(leftHalf), mergeSort(rightHalf))
-}
+    // function mergeSort(arr){
+    //     if(arr.length < 2){
+    //     return arr
+    //     }
+    //     const middleIndex = Math.floor(arr.length / 2)
+    //     const leftHalf = arr.slice(0, middleIndex)
+    //     const rightHalf = arr.slice(middleIndex, arr.length) //slice doesnt include last val so no need for -1
+    //     return merge(mergeSort(leftHalf), mergeSort(rightHalf))
+    // }
 
-function merge(leftArr, rightArr){
-    let resultArr = []
-    let leftIndex = 0
-    let rightIndex = 0
+    // function merge(leftArr, rightArr){
+    //     let resultArr = []
+    //     let leftIndex = 0
+    //     let rightIndex = 0
 
-    while(leftIndex < leftArr.length && rightIndex < rightArr.length){
-        if(leftArr[leftIndex] < rightArr[rightIndex]){
-            resultArr.push(leftArr[leftIndex])
-            leftIndex +=1 
-        }else{
-            resultArr.push(rightArr[rightIndex])
-            rightIndex += 1
-        }
-    }
-    return resultArr.concat(leftArr.slice(leftIndex)).concat(rightArr.slice(rightIndex))
-}
+    //     while(leftIndex < leftArr.length && rightIndex < rightArr.length){
+    //         if(leftArr[leftIndex] < rightArr[rightIndex]){
+    //             resultArr.push(leftArr[leftIndex])
+    //             leftIndex +=1 
+    //         }else{
+    //             resultArr.push(rightArr[rightIndex])
+    //             rightIndex += 1
+    //         }
+    //     }
+    //     return resultArr.concat(leftArr.slice(leftIndex)).concat(rightArr.slice(rightIndex))
+    // }
 /********************************************************************* */
+    // const camelize = str => {
+    //     return str
+    //         .split('-')
+    //         .map((word, index)=> index == 0 ? word : word[0].toUpperCase() + word.slice(1))
+    //         .join('')
+    // }
+    // console.log(camelize("background-color"))
 /********************************************************************* */
+    //const filterRange = (arr, a, b) => arr.filter(item => (a <= item && item <= b))
 /********************************************************************* */
+    // const filterRangeInPlace = (arr, a, b) => {
+    //     for(let i = 0; i < arr.length; i++){
+    //         let val = arr[i]
+
+    //         if (val < a || val > b){
+    //             arr.splice(i, 1)
+    //             i--
+    //         }
+    //     }
+
+    // }   
 /********************************************************************* */
+//sort array in decreasing order
+    //const sortArrayDescending = arr => arr.sort((a, b)=> b - a)
 /********************************************************************* */
+//sort array in decreasing order without mutating original array
+    //const sortArrayCopyDescending = arr => arr.slice().sort((a, b)=> b - a)
 /********************************************************************* */
+// You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
+
+// For instance:
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 28 };
+
+// let users = [ john, pete, mary ];
+
+// let names = /* ... your code */
+
+// alert( names ); // John, Pete, Mary
+
+//SOLUTION
+    // let names = users.map(item => item.name)//makes new array from name prop in each object
 /********************************************************************* */
+// You have an array of user objects, each one has name, surname and id.
+
+// Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
+
+// For instance:
+
+// let john = { name: "John", surname: "Smith", id: 1 };
+// let pete = { name: "Pete", surname: "Hunt", id: 2 };
+// let mary = { name: "Mary", surname: "Key", id: 3 };
+
+// let users = [ john, pete, mary ];
+
+// let usersMapped = users.map((user => ({
+//     fullName: `${user.name} ${user.surname}`,
+//     id: user.id
+// })))
+
+/*
+usersMapped = [
+  { fullName: "John Smith", id: 1 },
+  { fullName: "Pete Hunt", id: 2 },
+  { fullName: "Mary Key", id: 3 }
+]
+*/
+//console.log(usersMapped)
+//alert( usersMapped[0].id ) // 1
+//alert( usersMapped[0].fullName ) // John Smith
+//So, actually you need to map one array of objects to another. Try using => here. There’s a small catch.
+
+//SOLUTION
+// let usersMapped = users.map((user => ({
+//     fullName: `${user.name} ${user.surname}`,
+//     id: user.id
+// })))
 /********************************************************************* */
+// // Write the function sortByAge(users) that gets an array of objects with the age property and sorts them by age.
+
+// // For instance:
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 28 };
+
+// let arr = [ pete, john, mary ];
+
+// //SOLUTION
+// const sortByAge = arr => arr.sort((a, b) => a.age - b.age)
+
+// sortByAge(arr);
+
+// // now: [john, mary, pete]
+// console.log(arr[0].name); // John
+// console.log(arr[1].name); // Mary
+// console.log(arr[2].name); // Pete
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
