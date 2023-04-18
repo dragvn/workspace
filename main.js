@@ -2129,7 +2129,18 @@ usersMapped = [
     // let sorted = array.sort((a,b)=> a - b)
     // console.log(sorted[1])
 /********************************************************************* */
-//find first non-repeating ints in an array
+//merge two sorted arrays
+    // let arr1 = [1,2,3,4,5,6]
+    // let arr2 = [7,8,9,10,11]
+    // let arr3 = [4,5,3,2,1,6]
+
+    // function mergeTwo(arr1, arr2){
+    //     let mergedArr = [...arr1, ...arr2]
+    //     return mergedArr.sort((a, b)=> a - b)
+    // }
+
+    // console.log(mergeTwo(arr1, arr2))
+    // console.log(mergeTwo(arr3, arr2))
 
 
 /********************************************************************* */
