@@ -2105,17 +2105,33 @@ usersMapped = [
 
 // For instance:
 
-function unique(arr) {
-  /* your code */
-}
+// function unique(arr) {
+//   /* your code */
+// }
 
-let strings = ["Hare", "Krishna", "Hare", "Krishna",
-  "Krishna", "Krishna", "Hare", "Hare", ":-O"
-];
+// let strings = ["Hare", "Krishna", "Hare", "Krishna",
+//   "Krishna", "Krishna", "Hare", "Hare", ":-O"
+// ];
 
-alert( unique(strings) ); // Hare, Krishna, :-O
+// alert( unique(strings) ); // Hare, Krishna, :-O
 /********************************************************************* */
+//find the second minimum element of an array
+    // let array = [1,7,3,4,8,9,7]
+    // //PARAMS
+    //     //ARRAY OF NUMS
+    // //RETURN
+    //     //2ND LOWEST VAL
+    // //EXAMPLE
+    //     //^^ 3
+    // //PSEUDO
+    //     //SORT THE ARRAY
+    //     //RETURN INDEX 1
+    // let sorted = array.sort((a,b)=> a - b)
+    // console.log(sorted[1])
 /********************************************************************* */
+//find first non-repeating ints in an array
+
+
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
