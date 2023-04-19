@@ -2141,10 +2141,16 @@ usersMapped = [
 
     // console.log(mergeTwo(arr1, arr2))
     // console.log(mergeTwo(arr3, arr2))
-
-
 /********************************************************************* */
+//square every element of an array and combine into one sum
+    // let arr = [1,2,3,4,5,6]
+    // const squaresSum = arr => arr.reduce((sum, num)=> +sum + (num * num), 0)
+    // console.log(squaresSum(arr))
 /********************************************************************* */
+    // let arr = [1,2,3,4,5,6,7]
+    // arr.splice(0, 3, 'Lets', 'Dance')
+    // console.log(arr)
+
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
