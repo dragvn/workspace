@@ -2190,11 +2190,81 @@ usersMapped = [
 /********************************************************************* */
 //find nearest square num to provided num
     //const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
+/********************************************************************* */
+// You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
 
+// For instance:
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 28 };
+
+// let users = [ john, pete, mary ];
+
+// let names = /* ... your code */
+
+// alert( names ); // John, Pete, Mary
+
+//params
+    //array of objects
+//return 
+    //array of users names (name key)
+//example
+    // let john = { name: "John", age: 25 };
+    // let pete = { name: "Pete", age: 30 };
+    // let mary = { name: "Mary", age: 28 };
+
+    // let names = [ John, Pete, Mary ];  
+//pseudo
+    //arr.map()
+    //item.name
+    // let john = { name: "John", age: 25 };
+    // let pete = { name: "Pete", age: 30 };
+    // let mary = { name: "Mary", age: 28 };
+
+    // let users = [ john, pete, mary ];
+
+    //const names = arr => arr.map((user)=> user.name)
+
+    // console.log(names(users))
+    // console.log(users)
 /********************************************************************* */
+//write a dang ol binary search, time complexity?
+//O(log n)
+    // function binarySearch(arr, start, end, target){
+    //     if(start > end) return false
+    //     let middleIndex = Math.floor(start + end) / 2
+    //     if(middleIndex === target) return true
+    //     if(middleIndex > target) return binarySearch(arr, start, middleIndex - 1, target)
+    //     else return binarySearch(arr, middleIndex + 1, end, target)
+    // }
 /********************************************************************* */
+//implement a function that add two nums together and returns their sum in binary
+    //const binarySum = (a, b) => (a + b).toString(2) 
+    //console.log(binarySum(1,2))
 /********************************************************************* */
-/********************************************************************* */
+// Given a string s. You have to return another string such that even-indexed and odd-indexed characters of s are grouped and groups are space-separated (see sample below)
+
+// Note:
+// 0 is considered to be an even index.
+// All input strings are valid with no spaces
+// input: 'CodeWars'
+// output 'CdWr oeas'
+
+// S[0] = 'C'
+// S[1] = 'o'
+// S[2] = 'd'
+// S[3] = 'e'
+// S[4] = 'W'
+// S[5] = 'a'
+// S[6] = 'r'
+// S[7] = 's'
+// Even indices 0, 2, 4, 6, so we have 'CdWr' as the first group
+// odd ones are 1, 3, 5, 7, so the second group is 'oeas'
+// And the final string to return is 'Cdwr oeas'
+
+//params
+    //
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
