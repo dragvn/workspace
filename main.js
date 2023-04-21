@@ -2264,7 +2264,32 @@ usersMapped = [
 // And the final string to return is 'Cdwr oeas'
 
 //params
-    //
+    //string without space
+//return 
+    //string with space, even indexes on left, odd on right
+//example
+    // input: 'CodeWars'
+    // output 'CdWr oeas'
+//pseudo
+    //split into array
+    //filter evens
+    //filter odds
+    //join each new array
+    //concat them
+
+    // const evensOdds = str => {
+    //     let evens = str
+    //         .split('')
+    //         .filter((char, i)=> i % 2 === 0)
+    //         .join('')
+    //     let odds = str
+    //         .split('')
+    //         .filter((char, i)=> i % 2 !== 0)
+    //         .join('')
+    //     return evens.concat(' ', odds)
+    // }
+
+    // console.log(evensOdds('CodeWars'))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
