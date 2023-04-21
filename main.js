@@ -2224,7 +2224,7 @@ usersMapped = [
 
     // let users = [ john, pete, mary ];
 
-    //const names = arr => arr.map((user)=> user.name)
+    const names = arr => arr.map((user)=> user.name)
 
     // console.log(names(users))
     // console.log(users)
@@ -2291,6 +2291,30 @@ usersMapped = [
 
     // console.log(evensOdds('CodeWars'))
 /********************************************************************* */
+//write a binary search, what is it's time complexity
+//O(log n)
+//params
+    //array, start index, end index, target
+//return
+    //true or false
+//ex
+    //arr [1,2,3,4,5,6]
+    //target = 3 --> true
+    //target = 7 --> false
+//pseudo
+    //check start against end, must be smaller
+    //set middleIndex val
+    //if middleIndex === target return true
+    //if mI > target return binarySearch left side of array
+    //else return binarySearch right side of array
+
+    // const binarySearch = (arr, start, end, target) => {
+    //     if(start > end) return false
+    //     let middleIndex = Math.floor((start + end) / 2)
+    //     if(middleIndex === target) return true
+    //     if(middleIndex > target) return binarySearch(arr, start, middleIndex -1, target)
+    //     else return binarySearch(arr, middleIndex + 1, end, target)
+    // }
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
