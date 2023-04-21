@@ -2156,8 +2156,37 @@ usersMapped = [
 // Pairing two 0s generates one 0 at the location of the first one.
     //const pairZeros = (arr, f) = arr.filter(n => n || (f = !f))
 /********************************************************************* */
-
+//camelize string of words, first word remains lowercase!!!!
+    // let str = 'weeeiin peein jeeein beeein'
+    // const camelize = str => {
+    //     return str
+    //         .split(' ')
+    //         .map((word, index)=> index === 0 ? word : word[0].toUpperCase() + word.slice(1))
+    //         .join('')
+    // }
+    // console.log(camelize(str))
 /********************************************************************* */
+// Write a function filterRange(arr, a, b) that gets an array arr, looks for elements with values higher or equal to a and lower or equal to b and return a result as an array.
+// The function should not modify the array. It should return the new array.
+
+//params
+    //array
+    //a val
+    //b val
+//return
+    //new array with filtered vals
+//ex
+    // arr = [1,2,3,4,5,6,7] --> filterRange(arr, 3, 6) --> [3,4,5,6]
+//pseudo
+    //filter array
+        //vals >= a && <= b
+    //return it ^^^
+
+//solution 
+    // let arr = [1,2,3,4,5,6,7]
+    // const filterRange = (arr, a, b) => arr.filter((item)=> item >= a && item <= b)
+    // console.log(filterRange(arr, 3, 6))
+    // console.log(arr)
 /********************************************************************* */           
 /********************************************************************* */
 /********************************************************************* */
