@@ -2224,7 +2224,7 @@ usersMapped = [
 
     // let users = [ john, pete, mary ];
 
-    const names = arr => arr.map((user)=> user.name)
+    //const names = arr => arr.map((user)=> user.name)
 
     // console.log(names(users))
     // console.log(users)
@@ -2316,7 +2316,36 @@ usersMapped = [
     //     else return binarySearch(arr, middleIndex + 1, end, target)
     // }
 /********************************************************************* */
+//camelize string
+    // let str = 'Im so fucking tired today'
+    // const camelize = str => {
+    //     return str
+    //         .toLowerCase()
+    //         .split(' ')
+    //         .map((word, i) => i === 0 ? word : word[0].toUpperCase() + word.slice(1))
+    //         .join('')
+    // }
+    // console.log(camelize(str))
 /********************************************************************* */
+// You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
+
+// For instance:
+
+// let john = { name: "John", age: 25 };
+// let pete = { name: "Pete", age: 30 };
+// let mary = { name: "Mary", age: 28 };
+
+// let users = [ john, pete, mary ];
+
+// // let names = /* ... your code */
+
+// // alert( names ); // John, Pete, Mary
+
+// //SOLUTION
+// const names = arr => {
+//     return arr.map(person => person.name)
+// }
+// console.log(names(users))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
