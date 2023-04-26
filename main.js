@@ -2386,6 +2386,13 @@ usersMapped = [
 
 //const sortByAge = arr => arr.sort((a, b) => a.age - b.age)
 /********************************************************************* */
+const binarySearch = (arr, start, end, target) => {
+    if(start > end) return false
+    let middleIndex = Math.floor((start + end) / 2)
+    if(arr[middleIndex] === target) return true
+    if(arr[middleIndex] > target)return binarySearch(arr, start, middleIndex - 1, target)
+    else return (binarySearch(arr, middleIndex + 1, end, target))
+}
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
