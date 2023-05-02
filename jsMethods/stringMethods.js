@@ -260,7 +260,33 @@
 
     // let sneezy = new MakeCar('gronda', 'chiviec', 'key limon', 3)
 /****************************************************************************************************************************************** */
+// Write a function filterRange(arr, a, b) that gets an array arr, looks for elements with values higher or equal to a and lower or equal to b and return a result as an array.
+// The function should not modify the array. It should return the new array.
+
+//params
+    //array
+//return
+    //new array (filtered)
+//pseud
+    //filter arr for vals >= a && <= b
+
+// const filterRange = (arr, a, b) => {
+//     return arr.filter((item) => item >= a && item <= b)
+// }
 /****************************************************************************************************************************************** */
+//Write a function filterRangeInPlace(arr, a, b) that gets an array arr and removes from it all values except those that are between a and b.
+    // let arr = [1,2,3,4,5,6,7,8,9]
+    // const filterRangeInPlace = (arr, a, b) => {
+    //     for(i=0; i<arr.length; i++){
+    //         let val = arr[i]
+    //         if(val <= a || val >= b){
+    //             arr.splice(i, 1)
+    //             i--
+    //         }
+    //     }
+    //     return arr
+    // }
+    // console.log(filterRangeInPlace(arr, 3, 6))
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
