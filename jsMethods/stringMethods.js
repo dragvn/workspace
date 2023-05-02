@@ -192,18 +192,25 @@
 // When it comes to subtraction, the first number will always be greater than or equal to the second number.
 
 //solution
-const dotCalculator = str => {
-    const operations = {
-        '+': (a, b) => a + b,
-        '-': (a, b) => a - b,
-        '*': (a, b) => a * b,
-        '//': (a, b) => a / b,
-    }
-    const [left, operator, right] = str.split(' ')
-    return '.'.repeat(operations[operator](left.length, right.length))
-}
+    // const dotCalculator = str => {
+    //     const operations = {
+    //         '+': (a, b) => a + b,
+    //         '-': (a, b) => a - b,
+    //         '*': (a, b) => a * b,
+    //         '//': (a, b) => a / b,
+    //     }
+    //     const [left, operator, right] = str.split(' ')
+    //     return '.'.repeat(operations[operator](left.length, right.length))
+    // }
 //been slack
 /****************************************************************************************************************************************** */
+    // let str1 = '1234'
+    // let str2 = 'llama'
+    // let arr1 = [1,2,3,4,5]
+    // let arr2 = [9,8,7,6]
+
+    // console.log(str1.concat(str2))
+    // console.log(arr1.concat(arr2))
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
