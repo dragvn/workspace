@@ -199,7 +199,8 @@ const dotCalculator = str => {
         '*': (a, b) => a * b,
         '//': (a, b) => a / b,
     }
-
+    const [left, operator, right] = str.split(' ')
+    return '.'.repeat(operations[operator](left.length, right.length))
 }
 //been slack
 /****************************************************************************************************************************************** */
