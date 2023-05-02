@@ -212,7 +212,35 @@
     // console.log(str1.concat(str2))
     // console.log(arr1.concat(arr2))
 /****************************************************************************************************************************************** */
+    // class MakeCar{
+    //     constructor(carMake, carModel, carColor, numOfDoors){
+    //         this.make = carMake
+    //         this.model = carModel
+    //         this.color = carColor
+    //         this._doors = numOfDoors
+    //     }
+    //     honk(){
+    //         alert('bbbeppp')
+    //     }
+    //     lock(){
+    //         alert('locked the fuck up')
+    //     }
+    // }
 /****************************************************************************************************************************************** */
+// Write the function shuffle(array) that shuffles (randomly reorders) elements of the array.
+
+// Multiple runs of shuffle may lead to different orders of elements.
+//FISHER-YATES SHUFFLE
+    //walk array in reverse
+    //declare random index from 0 to current index
+    //swap current index with random index ^^^
+
+    // const fisherYatesShuffle = arr => {
+    //     for(i = arr.length - 1; i > 0; i--){ //walk arr in reverse
+    //         let j = Math.floor(Math.random() * (i + 1)) //random val 0 to i
+    //         [arr[i], arr[j]] = [arr[j], arr[i]] //swap em
+    //     }
+    // }
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
 /****************************************************************************************************************************************** */
