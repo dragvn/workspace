@@ -2394,7 +2394,29 @@ usersMapped = [
 //     else return (binarySearch(arr, middleIndex + 1, end, target))
 // }
 /********************************************************************* */
+// Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
+
+// Write a function which takes a list of strings and returns each line prepended by the correct number.
+
+// The numbering starts at 1. The format is n: string. Notice the colon and space in between.
+
+// Examples: (Input --> Output)
+
+// [] --> []
+// ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+// let arr = ['a', 'b', 'c']
+// const prependStr = arr => arr.map((e, i) => `${i + 1}: ${e}`)
+// console.log(prependStr(arr))
 /********************************************************************* */
+//check to see if two strings are anagrams 
+// let thisStr = 'llama'
+// let thatStr = 'amlal'
+// let otherStr = 'pepper'
+
+// const isAnagram = (str1, str2) => str1.split('').sort().join('') === str2.split('').sort().join('')
+
+// console.log(isAnagram(thisStr, thatStr))
+// console.log(isAnagram(thisStr, otherStr))
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
