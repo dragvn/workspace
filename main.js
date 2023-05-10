@@ -2456,7 +2456,21 @@ usersMapped = [
 
 //const sortByAge = arr => arr.sort((a, b)=> a.age - b.age)
 /********************************************************************* */
+//square every element in an array and combine into one sum
+// let arr = [1,2,3,4,5,6]
+    // const squareSum = arr => arr.reduce((sum, current)=> +sum + (current ** current), 0)
 /********************************************************************* */
+//write binary search nlogn
+
+const binarySearch = (arr, start, end, target) => {
+    if(start > end) return -1
+    let middleIndex = Math.floor((start + end) / 2)
+    if(arr[middleIndex] === target) return true
+    else if(arr[middleIndex] > target) {
+        return binarySearch(arr, start, middleIndex - 1, target)
+    }
+    else return binarySearch(arr, middleIndex + 1, end, target)
+}
 /********************************************************************* */
 /********************************************************************* */
 /********************************************************************* */
